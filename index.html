@@ -1,0 +1,180 @@
+<head>
+	<link href="video-js.css" rel="stylesheet">
+	<script src="video.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+	macgap.window.resize({width: 1000, height: 680});
+	macgap.window.move({x:0, y: 90});
+	</script>
+
+	<style>
+
+	body{
+	background-color: #cdcdcd;
+	margin:0px;
+	}
+
+	#sender{
+	width:1000px;
+	margin: auto;
+	padding-left:10px;
+	}
+
+	#stream{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	a{
+	display: inline-block;
+	width: 70px;
+	height: 53px;
+	margin: 10px 15px 0px 0px;
+	border: 1px solid #ddd;  
+	background-color: #eee;  
+	text-align: center;
+	} 
+	</style>
+	
+</head>
+
+<body>
+
+<script>
+$(document).keydown(function(e){
+    if (e.keyCode == 37) { 
+       alert( "left pressed" );
+       return false;
+    }
+});
+</script>
+
+<div id="stream">
+<video id=example-video width="1000" height="450" class="video-js vjs-default-skin" controls playsinline webkit-playsinline>
+  <source
+     src="http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8"
+     type="application/x-mpegURL">
+</video>
+</div>
+
+
+<div id="sender">
+<a id="ard" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8" });player.play();'>
+	<img src="tvlogos/ard.png" width="70px" hight="53px">
+</a>
+<a id="zdf" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8" });player.play();'>
+	<img src="tvlogos/zdf.png" width="70px" hight="53px">
+</a>
+<a id="arte" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8" });player.play();'>
+		<img src="tvlogos/arte.png" width="70px" hight="53px">
+</a>
+<a id="br" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8" });player.play();'>
+		<img src="tvlogos/br.png" width="70px" hight="53px">
+</a>
+<a id="alpha" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8" });player.play();'>
+		<img src="tvlogos/br-alpha.png" width="70px" hight="53px">
+</a>
+<a id="hr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8" });player.play();'>
+		<img src="tvlogos/hr.png" width="70px" hight="53px">
+</a>
+<a id="mdr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://mdr_th_hls-lh.akamaihd.net/i/livetvmdrthueringen_de@106903/master.m3u8" });player.play();'>
+	<img src="tvlogos/mdr.png" width="70px" hight="53px">
+</a>
+<a id="ndr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/master.m3u8" });player.play();'>
+		<img src="tvlogos/ndr.png" width="70px" hight="53px">
+</a>
+<a id="rbb" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://rbb_live-lh.akamaihd.net/i/rbb_berlin@108248/master.m3u8" });player.play();'>
+	<img src="tvlogos/rbb.png" width="70px" hight="53px">
+</a>
+<a id="sr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://live2_sr-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8" });player.play();'>
+	<img src="tvlogos/sr.png" width="70px" hight="53px">
+</a>
+<a id="swr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://swrrp-lh.akamaihd.net/i/swrrp_live@196739/master.m3u8" });player.play();'>
+	<img src="tvlogos/swr.png" width="70px" hight="53px">
+</a>
+<a id="wdr" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/master.m3u8" });player.play();'>
+	<img src="tvlogos/wdr.png" width="70px" hight="53px">
+</a>
+<a id="tgs24" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8" });player.play();'>
+	<img src="tvlogos/tagesschau24.png" width="70px" hight="53px">
+</a>
+<a id="3sat" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8" });player.play();'>
+	<img src="tvlogos/3sat.png" width="70px" hight="53px">
+</a>
+<a id="kika" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/master.m3u8" });player.play();'>
+	<img src="tvlogos/kika.png" width="70px" hight="53px">
+</a>
+<a id="phoenix" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf_hds_de-f.akamaihd.net/i/de09_v1@87012/master.m3u8" });player.play();'>
+	<img src="tvlogos/phoenix.png" width="70px" hight="53px">
+</a>
+<a id="zdfinfo" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8" });player.play();'>
+	<img src="tvlogos/info.png" width="70px" hight="53px">
+</a>
+<a id="zdfneo" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf1314-lh.akamaihd.net/i/de13_v1@392877/master.m3u8" });player.play();'>
+	<img src="tvlogos/neo.png" width="70px" hight="53px">
+</a>
+<a id="zdfkultur" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://zdf1112-lh.akamaihd.net/i/de11_v1@392881/master.m3u8" });player.play();'>	
+	<img src="tvlogos/kultur.png" width="70px" hight="53px">
+</a>
+<a id="dw" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://www.metafilegenerator.de/DWelle/tv/ios/master.m3u8" });player.play();'>
+	<img src="tvlogos/dw.png" width="70px" hight="53px">
+</a>
+<a id="nhk" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://nhkwglobal-i.akamaihd.net/hls/live/222714/nhkwglobal/index_1180.m3u8" });player.play();'>
+	<img src="tvlogos/nhk.png" width="70px" hight="53px">
+</a>
+<a id="n24" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://n24-live.hls.adaptive.level3.net/n24/live2cms/live2cms.m3u8" });player.play();'>	
+	<img src="tvlogos/n24.png" width="70px" hight="53px">
+</a>
+<a id="abc" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-p.m3u8" });player.play();'>
+	<img src="tvlogos/abc.png" width="70px" hight="53px">
+</a>
+<a id="rt" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://rt-lh.akamaihd.net/i/ch_01@325605/index_320p_av-p.m3u8" });player.play();'>
+	<img src="tvlogos/rt.png" width="70px" hight="53px">
+</a>
+<a id="rtdoc" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://rt-lh.akamaihd.net/i/ch_05@325609/index_320p_av-p.m3u8" });player.play();'>
+	<img src="tvlogos/rtdoc.png" width="70px" hight="53px">
+</a>
+<a id="f24" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_500.m3u8" });player.play();'>
+	<img src="tvlogos/france24.png" width="70px" hight="53px">
+</a>
+<a id="aj" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/800.m3u8" });player.play();'>
+	<img src="tvlogos/aljazeera.png" width="70px" hight="53px">
+</a>
+<span id="time" style="float:right; margin: 20px 50px 0 0; font-weight:bold;text-transform:uppercase;color:#000000;letter-spacing:1pt;word-spacing:2pt;font-size:24px;text-align:left;font-family:verdana, sans-serif;line-height:1;"></span>
+
+</div>
+
+<script>
+var player = videojs('example-video');
+player.play();
+</script>
+
+
+
+
+
+<script>
+(function () {
+    function checkTime(i) {
+        return (i < 10) ? "0" + i : i;
+    }
+
+    function startTime() {
+        var today = new Date(),
+            h = checkTime(today.getHours()),
+            m = checkTime(today.getMinutes()),
+            s = checkTime(today.getSeconds());
+        document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+        t = setTimeout(function () {
+            startTime()
+        }, 500);
+    }
+    startTime();
+})();
+</script>
+
+</body>
+
+
+
