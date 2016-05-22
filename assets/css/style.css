@@ -1,0 +1,50 @@
+body{
+background-color: #cdcdcd;
+margin:0px;
+}
+
+#sender{
+width:100%;
+margin: auto;
+padding-left:10px;
+}
+
+#stream{
+width:100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+a{
+display: inline-block;
+width: 70px;
+height: 53px;
+margin: 10px 15px 0px 0px;
+border: 1px solid #ddd;  
+background-color: #eee;  
+text-align: center;
+}
+
+#wall a{
+display: inline-block;
+width: 180px;
+height: 120px;
+margin: 10px 15px 0px 0px;
+border: 1px solid #ddd;  
+background-color: #eee;  
+text-align: center;
+}
+
+#time{
+float:right; 
+margin: 20px 50px 0 0; 
+font-weight:bold;
+text-transform:uppercase;
+color:#000000;
+letter-spacing:1pt;
+word-spacing:2pt;
+font-size:24px;
+text-align:left;
+font-family:verdana, sans-serif;
+line-height:1;
+}
