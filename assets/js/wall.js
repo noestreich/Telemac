@@ -77,7 +77,7 @@ if (query.programm){
 			break;
 		case 'phoenix':
 			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://zdf_hds_de-f.akamaihd.net/i/de09_v1@87012/master.m3u8" });player.play();
+			player.src({ type: "application/x-mpegURL", src: "http://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8" });player.play();
 			break;
 		case 'zdfinfo':
 			var player = videojs('telemac-video');
