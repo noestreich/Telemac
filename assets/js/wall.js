@@ -25,7 +25,7 @@ if (query.programm){
 			break;
 		case 'arte':
 			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://delive.artestras.cshls.lldns.net/artestras/contrib/delive.m3u8" });player.play();
+			player.src({ type: "application/x-mpegURL", src: "http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8" });player.play();
 			break;
 		case 'br':
 			var player = videojs('telemac-video');
@@ -93,7 +93,7 @@ if (query.programm){
 			break;
 		case 'dwelle':
 			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://www.metafilegenerator.de/DWelle/tv/ios/master.m3u8" });player.play();
+			player.src({ type: "application/x-mpegURL", src: "http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8" });player.play();
 			break;
 		case 'nhk':
 			var player = videojs('telemac-video');
@@ -101,7 +101,7 @@ if (query.programm){
 			break;
 		case 'n24':
 			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://n24-live.hls.adaptive.level3.net/n24/live2cms/live2cms.m3u8" });player.play();
+			player.src({ type: "application/x-mpegURL", src: "http://bsn246u6-i.akamaihd.net/hls/live/237201/Live2N24CMS/index.m3u8" });player.play();
 			break;
 		case 'abc':
 			var player = videojs('telemac-video');
