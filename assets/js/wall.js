@@ -109,11 +109,7 @@ if (query.programm){
 			break;
 		case 'rt':
 			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://rt-lh.akamaihd.net/i/ch_01@325605/index_320p_av-p.m3u8" });player.play();
-			break;
-		case 'rtdoc':
-			var player = videojs('telemac-video');
-			player.src({ type: "application/x-mpegURL", src: "http://rt-lh.akamaihd.net/i/ch_05@325609/index_320p_av-p.m3u8" });player.play();
+			player.src({ type: "application/x-mpegURL", src: "http://rt-eng-live.hls.adaptive.level3.net/rt/eng/index.m3u8" });player.play();
 			break;
 		case 'france24':
 			var player = videojs('telemac-video');
@@ -122,6 +118,10 @@ if (query.programm){
 		case 'aljazeera':
 			var player = videojs('telemac-video');
 			player.src({ type: "application/x-mpegURL", src: "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/800.m3u8" });player.play();
+			break;
+		case 'one':
+			var player = videojs('telemac-video');
+			player.src({ type: "application/x-mpegURL", src: "http://wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/master.m3u8" });player.play();
 			break;
 
 	}
