@@ -9,9 +9,9 @@ Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspi
 
 ![Telemac Screenshot](telemac.png)
 
-Telemac kann in Version 2.1 [hier](https://github.com/noestreich/Telemac/releases) geladen werden.
+Telemac kann in Version 2.2 [hier](https://github.com/noestreich/Telemac/releases) geladen werden.
 
-## Neu in Version 2.1
+## Neu in Version 2.2
 - Auf [MacGap 2](https://github.com/MacGapProject/MacGap2) aktualisiert
 - Nativer Vollbildmodus
 - EPG-Button entfernt
