@@ -3,9 +3,9 @@
 
 Willkommen bei Telemac 
 
-Dieses Projekt nutzt das [MacGap](https://github.com/MacGapProject)-Werkzeug um eine einfache, unter Zuhilfenahme von [video.js](http://videojs.com/) gestrickte Webseite als Mac-App anzubieten und setzt dabei auf die Logos von [3PO](https://github.com/3PO/Senderlogos). 
+Dieses Projekt nutzt das [MacGap](https://github.com/MacGapProject/MacGap2)-Werkzeug um eine einfache, unter Zuhilfenahme von [video.js](http://videojs.com/) gestrickte Webseite als Mac-App anzubieten.
 	
-Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspiriert, ist nicht-kommerziell und sieht so aus: 
+Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspiriert, ist nicht-kommerziell, setzt auf die frei verfügbaren Streams der Sender und sieht so aus: 
 
 ![Telemac Screenshot](telemac.png)
 
