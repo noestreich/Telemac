@@ -7,7 +7,8 @@ Dieses Projekt nutzt das [MacGap](https://github.com/MacGapProject/MacGap2)-Werk
 	
 Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspiriert, ist nicht-kommerziell, setzt auf die frei verfügbaren Streams der Sender und sieht so aus: 
 
-![Telemac Screenshot](telemac.png)
+![Telemac Screenshot](telemac-2.2.png)
+###### Das Telemac-Hauptfenster.
 
 Telemac kann in Version 2.2 [hier](https://github.com/noestreich/Telemac/releases) geladen werden.
 
@@ -24,4 +25,5 @@ Telemac kann in Version 2.2 [hier](https://github.com/noestreich/Telemac/release
 - Bessere Vollbildunterstützung. Leider mit macgap-bedingter, grauer Leiste oben im Bildschirm.
 - ZDFkultur wurde (eingestellt und) aus Telemac entfernt. 
 
-![Telemac Screenshot](wall.png)
+![Telemac Screenshot](wall-2.2.png)
+###### Die Wall-Anzeige der Telemac-Applikation zeigt alle Sender gleichzeitig an.
