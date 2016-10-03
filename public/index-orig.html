@@ -12,21 +12,21 @@
 	<script>
 		macgap.window.resize({width: 1050, height: 613});
 		macgap.window.move({x:193, y: 168});
-		</script>
+	</script>
 		
 </head>
 
 <body>
-
-	<div class="player">
+	<div id="center">
+<div class="player">
 	<div id="stream" >
-		<video id="telemac-video" class="video-js vjs-default-skin" playsinline webkit-playsinline data-setup='{"fluid": true,"autoplay": true}'>
+		<video id="telemac-video" class="video-js vjs-16-9 vjs-default-skin" playsinline webkit-playsinline data-setup='{"fluid": false,"autoplay": true}'>
 			<source
 			src="http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8"
 			type="application/x-mpegURL">
 		</video>
 	</div>
-		<div class="controls">
+	<div class="controls">
 		<div id="sender">
 		<a id="ard" href="#" onclick='player.src({ type: "application/x-mpegURL", src: "http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8" });player.play();'>
 			<img src="assets/tvlogos/tv-ard.png" width="70px" hight="53px">
@@ -119,7 +119,6 @@
 	
 		</div>
 	</div>
-</div>
 	<!-- Zeitanzeige -->
 	<script src="assets/js/zeit.js"></script>
 	<!-- Wall-Rückgabe-Parameter -->
@@ -127,6 +126,7 @@
 	<!-- Player initialisieren -->
 	<script>var player = videojs('telemac-video');player.play();
 	</script>
-
+</div>
+</div>
 </body>
 </html>
