@@ -108,6 +108,9 @@
  [1] http://stackoverflow.com/questions/353808/implementing-a-webview-database-quota-delegate
  [2] http://stackoverflow.com/questions/4527905/how-do-i-enable-local-storage-in-my-webkit-based-application/4608549#4608549
  */
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
+
 - (void)webView:(WebView *)sender frame:(WebFrame *)frame exceededDatabaseQuotaForSecurityOrigin:(id) origin database:(NSString *)databaseIdentifier
 {
     static const unsigned long long defaultQuota = 5 * 1024 * 1024;
@@ -117,7 +120,7 @@
         NSLog(@"could not increase quota for %lld", defaultQuota);
     }
 }
-
+#pragma clang diagnostic pop
 - (NSArray *)webView:(WebView *)sender contextMenuItemsForElement:(NSDictionary *)element defaultMenuItems:(NSArray *)defaultMenuItems
 {
     NSMutableArray *webViewMenuItems = [defaultMenuItems mutableCopy];
