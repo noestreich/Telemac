@@ -1,35 +1,9 @@
-var senderARD = "http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8";
-var senderZDF = "http://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8";
-var senderRBB = "http://rbb_live-lh.akamaihd.net/i/rbb_berlin@108248/master.m3u8";
-var senderArte = "http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8";
-var senderZDFneo = "http://zdf1314-lh.akamaihd.net/i/de13_v1@392877/master.m3u8";
-var senderZDFinfo = "http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8";
-var sender3sat = "http://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8";
-var senderPhoenix = "http://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8";
-var senderWDR = "http://wdr_fs_geo-lh.akamaihd.net/i/wdrfs_geogeblockt@112044/master.m3u8";
-var senderNDR = "http://ndr_fs-lh.akamaihd.net/i/ndrfs_hh@119223/master.m3u8";
-var senderBR = "http://livestreams.br.de/i/bfsnord_germany@119898/master.m3u8";
-var senderBRalpha = "http://livestreams.br.de/i/bralpha_germany@119899/master.m3u8";
-var senderSWR = "http://swrrp-lh.akamaihd.net/i/swrrp_live@196739/master.m3u8";
-var senderHR = "http://live1_hr-lh.akamaihd.net/i/hr_fernsehen@75910/master.m3u8";
-var senderSR = "http://live2_sr-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8";
-var senderONE = "http://wdr_einsfestival-lh.akamaihd.net/i/wdr_einsfestival@328300/master.m3u8";
-var senderDW = "http://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8";
-var senderKiKa = "http://kika_geo-lh.akamaihd.net/i/livetvkika_de@75114/master.m3u8";
-var senderTagesschau24 = "http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8";
-var senderMDR = "http://mdr_th_hls-lh.akamaihd.net/i/livetvmdrthueringen_de@106903/master.m3u8";
-var senderNHK = "http://web-cache.stream.ne.jp/www11/nhkworld-tv/stv/225446/live.m3u8";
-var senderF24 = "http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_HLS/master_500.m3u8";
-var senderRT = "http://rt-eng-live.hls.adaptive.level3.net/rt/eng/index.m3u8";
-var senderAL = "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/800.m3u8";
-var senderABC = "http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-p.m3u8";
-var senderN24 = "http://bsn246u6-i.akamaihd.net/hls/live/237201/Live2N24CMS/index.m3u8";
 	onkeyup = function(e){
-		if(e.keyCode == 187){
+        if(e.keyCode == 187 || e.keyCode == 107){
 			//alert(player.currentSrc());
 			switch (player.currentSrc()) {
 			case senderARD:
-				player.src({ type: "application/x-mpegURL", src: senderZDF });player.play();
+				player.src({ type: "application/x-mpegURL", src: window.senderZDF });player.play();
 				break;
 			case senderZDF:
 				player.src({ type: "application/x-mpegURL", src: senderRBB });player.play();
@@ -108,7 +82,7 @@ var senderN24 = "http://bsn246u6-i.akamaihd.net/hls/live/237201/Live2N24CMS/inde
 				break;
 			}
 		}
-		else if(e.keyCode == 189){
+		else if(e.keyCode == 189 || e.keyCode == 109){
 			//alert(player.currentSrc());
 			switch (player.currentSrc()) {
 			case senderN24:
