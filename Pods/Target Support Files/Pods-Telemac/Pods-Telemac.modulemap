@@ -1,0 +1,6 @@
+framework module Pods_Telemac {
+  umbrella header "Pods-Telemac-umbrella.h"
+
+  export *
+  module * { export * }
+}
