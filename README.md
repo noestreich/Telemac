@@ -8,11 +8,11 @@ Dieses Projekt nutzt das [MacGap](https://github.com/MacGapProject/MacGap2)-Werk
 	
 Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspiriert, ist nicht-kommerziell, setzt auf die frei verfügbaren Streams der Sender und sieht so aus.
 #### Das Telemac-Hauptfenster:
-![Telemac Screenshot](telemac-2.2.png)
+![Telemac Screenshot](telemac-2.3.png)
 
 #### Die Wall-Ansicht zeigt alle Sender gleichzeitig an:
 
-![Telemac Screenshot](wall-2.2.png)
+![Telemac Screenshot](wall-2.3.png)
 ___
 ## Neu in Version 2.3
 - Testrelease für automatische Updates
