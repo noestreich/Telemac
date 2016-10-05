@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Telemac Changelog</title>
+        <link>https://github.com/justvanbloom/Telemac/raw/master/Releases/appcast.xml</link>
+        <description>Die Änderungen für Telemac.</description>
+        <language>de</language>
+        <item>
+            <title>Version 2.3</title>
+            <description>
+              Tastenanschläge ton entfernt - Styling - Code optimierung für Senderliste
+             </description>
+            <pubDate>Wed, 5 Oct 2016 02:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/justvanbloom/Telemac/raw/master/Releases/Telemac_2.3.zip" sparkle:version="2.3" sparkle:shortVersionString="2.3" length="5636532" type="application/octet-stream" />
+            <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>

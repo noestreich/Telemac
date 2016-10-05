@@ -3,7 +3,7 @@
 			//alert(player.currentSrc());
 			switch (player.currentSrc()) {
 			case senderARD:
-				player.src({ type: "application/x-mpegURL", src: window.senderZDF });player.play();
+				player.src({ type: "application/x-mpegURL", src: senderZDF });player.play();
 				break;
 			case senderZDF:
 				player.src({ type: "application/x-mpegURL", src: senderRBB });player.play();

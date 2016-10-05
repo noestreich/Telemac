@@ -4,16 +4,24 @@
         <link href="assets/css/video-js.css" rel="stylesheet" />
         <script src="assets/js/video.js"></script>
         <script>
-            MacGap.Window.resize(960, 568);
+            //MacGap.Window.resize(960, 568); //not needed
+            MacGap.Window.title('Telemac');
             </script>
         <style>
             .sender img{
                 width:70px;
                 height:53px;
             }
+            a {-webkit-user-select: none;
+                -webkit-touch-callout: none;
+            }
+            *:not(input):not(textarea) {
+                -webkit-user-select: none;
+                -webkit-touch-callout: none;
+            }
         </style>
     </head>
-    <body>
+    <body oncontextmenu="return false">
         <video id="telemac-video" class="video-js vjs-default-skin" autoplay preload="auto" >
             <source src="http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8" type='application/x-mpegURL' />
         </video>
@@ -107,10 +115,10 @@
         </div>
         <!-- Zeitanzeige -->
         <script src="assets/js/zeit.js"></script>
-        <!-- Wall-Rückgabe-Parameter -->
-        <script src="assets/js/wall.js"></script>
         <!-- Sender -->
         <script src="assets/js/sendersrc.js"></script>
+        <!-- Wall-Rückgabe-Parameter -->
+        <script src="assets/js/wall.js"></script>
         <!-- Keyboard-Zapping -->
         <script src="assets/js/sender.js"></script>
         <!-- Player initialisieren -->

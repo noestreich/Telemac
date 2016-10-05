@@ -13,7 +13,7 @@
 @protocol MenuItemExports <JSExport>
 - (void) remove;
 //- (void) setCallback:(JSManagedValue*)aCallback;
-- (void) setKey:(NSString*)keyCommand;
+//- (void) setKey:(NSString*)keyCommand;
 - (void) setLabel:(NSString*)label;
 JSExportAs(addSubmenu, - (JSValue*)addSubmenu: (NSString*) aTitle);
 @property (readonly) JSValue* submenu;

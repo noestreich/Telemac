@@ -111,19 +111,28 @@
 	self.webViewDelegate = [[WebViewDelegate alloc] initWithMenu:[NSApp mainMenu]];
     self.webViewDelegate.windowController = self;
     
-	[self.webView setFrameLoadDelegate:self.webViewDelegate];
-	[self.webView setUIDelegate:self.webViewDelegate];
-	[self.webView setResourceLoadDelegate:self.webViewDelegate];
-	[self.webView setDownloadDelegate:self.webViewDelegate];
-	[self.webView setPolicyDelegate:self.webViewDelegate];
+	[self.webView setFrameLoadDelegate:(id)self.webViewDelegate];
+	[self.webView setUIDelegate:(id)self.webViewDelegate];
+	[self.webView setResourceLoadDelegate:(id)self.webViewDelegate];
+	[self.webView setDownloadDelegate:(id)self.webViewDelegate];
+	[self.webView setPolicyDelegate:(id)self.webViewDelegate];
     [self.webView setDrawsBackground:NO];
     [self.webView setShouldCloseWithWindow:NO];
     [self.webView setGroupName:@"MacGap"];
     self.pluginObjects = [[NSMutableDictionary alloc] initWithCapacity:20];
     
-    
-
+    self.window.titlebarAppearsTransparent = true;
+    self.window.movableByWindowBackground  = true;
+    [self.window.contentView setWantsLayer:YES];
+    self.window.appearance = [NSAppearance appearanceNamed:NSAppearanceNameVibrantDark];
 }
+
+- (void)keyDown:(NSEvent *)event {
+#if MD_DEBUG
+    NSLog(@"[%@ %@]", NSStringFromClass([self class]), NSStringFromSelector(_cmd));
+#endif
+}
+
 
 - (void) setWindowParams
 {
@@ -228,3 +237,6 @@
 
 
 @end
+
+
+

@@ -14,6 +14,13 @@ Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspi
 
 ![Telemac Screenshot](wall-2.2.png)
 ___
+## Neu in Version 2.3
+- Testrelease für automatische Updates
+
+## Neu in Version 2.2.5
+- automatische Updates
+- Styling
+- Tastentöne beim Zappen abgeschaltet
 
 ## Neu in Version 2.2
 - Auf [MacGap 2](https://github.com/MacGapProject/MacGap2) aktualisiert
