@@ -8,9 +8,11 @@
         <item>
             <title>Version 2.3</title>
             <description><![CDATA[
-              -Tastenanschläge ton entfernt<br>
-              -Styling<br>
-              -Code optimierung für Senderliste (nur noch an einer Stelle ändern)<br>
+              -Tastenanschläge ton entfernt
+
+              -Styling
+
+              -Code optimierung für Senderliste (nur noch an einer Stelle ändern)
               ]]></description>
             <pubDate>Wed, 5 Oct 2016 02:00:00 +0000</pubDate>
             <enclosure url="https://github.com/justvanbloom/Telemac/raw/master/Releases/Telemac_2.3.zip" sparkle:version="2.3" sparkle:shortVersionString="2.3" length="5635426" type="application/octet-stream" />
