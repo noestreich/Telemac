@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WindowController.h"
+@import Sparkle;
 
 @implementation AppDelegate
 
@@ -30,6 +31,10 @@
     [self.windowController setWindowParams];
     [self.windowController showWindow:self];
     [[NSUserNotificationCenter defaultUserNotificationCenter] setDelegate:self];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [[SUUpdater sharedUpdater] checkForUpdatesInBackground];
+    });
 }
 
 - (BOOL)userNotificationCenter:(NSUserNotificationCenter *)center
