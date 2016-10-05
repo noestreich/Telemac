@@ -1,0 +1,81 @@
+video,
+#telemac-video,
+.video-js,
+.vjs-default-skin {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+.controls {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    color: #eee;
+    padding: 1em;
+    position: fixed;
+    left: 2em;
+    right: 2em;
+    bottom: 2em;
+    text-align: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    transition-delay: 0;
+    z-index: 100;
+}
+.test {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.test:hover .controls {
+    pointer-events: auto;
+    opacity: 1;
+}
+.test:not(:hover) .controls {
+    transition-delay: .5s;
+}
+.sender {
+    width: 100%;
+    margin: auto;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#time {
+    float: right;
+    margin: 20px 50px 0 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ccc;
+    letter-spacing: 1pt;
+    word-spacing: 2pt;
+    font-size: 24px;
+    text-align: left;
+    font-family: verdana, sans-serif;
+    line-height: 1;
+}
+#senderwechsel {
+    color: #ccc;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    font-size: 9px;
+    font-family: verdana, sans-serif;
+    line-height: 1;
+}
+a {
+    display: inline-block;
+    border-radius: 5px;
+    width: 70px;
+    height: 53px;
+    margin: 10px 15px 0px 0px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    text-align: center;
+}
+img {
+    border-radius: 5px;
+}
