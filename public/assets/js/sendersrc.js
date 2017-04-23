@@ -1,6 +1,6 @@
 window.senderARD =      "http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8";
 window.senderZDF =      "http://zdf1314-lh.akamaihd.net/i/de14_v1@392878/master.m3u8";
-window.senderRBB =      "http://rbb_live-lh.akamaihd.net/i/rbb_berlin@108248/master.m3u8";
+window.senderRBB =      "http://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/index_7_av-p.m3u8";
 window.senderArte =     "http://artelive-lh.akamaihd.net/i/artelive_de@393591/master.m3u8";
 window.senderZDFneo =   "http://zdf1314-lh.akamaihd.net/i/de13_v1@392877/master.m3u8";
 window.senderZDFinfo =  "http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/master.m3u8";
@@ -23,7 +23,7 @@ window.senderF24 =      "http://f24hls-i.akamaihd.net/hls/live/221193/F24_EN_LO_
 window.senderRT =       "http://rt-eng-live.hls.adaptive.level3.net/rt/eng/index.m3u8";
 window.senderAL =       "http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/800.m3u8";
 window.senderABC =      "http://abclive.abcnews.com/i/abc_live4@136330/index_1200_av-p.m3u8";
-window.senderN24 =      "http://bsn246u6-i.akamaihd.net/hls/live/237201/Live2N24CMS/index.m3u8";
+window.senderN24 =      "https://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/master.m3u8";
 function load(sender){
     player.src({ type: "application/x-mpegURL", src: eval('sender'+sender) });player.play();
 }
