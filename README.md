@@ -14,6 +14,11 @@ Telemac wurde vom [Telemat1000](https://github.com/noestreich/Telemat1000) inspi
 
 ![Telemac Screenshot](wall-2.3.png)
 ___
+## Neu in Version 2.4
+- Sender-Streams aktualisiert (RBB, NHK und N24)
+- App-Icon überarbeitet
+- Kleinere UI-Anpassungen (Preloader)
+
 ## Neu in Version 2.3
 - Testrelease für automatische Updates
 
