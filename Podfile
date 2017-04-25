@@ -1,6 +1,6 @@
-platform :osx, '10.10'
+platform :osx, '10.9'
 use_frameworks!
 
 target 'Telemac' do
-  pod 'Sparkle'
+  pod 'Sparkle', '1.14.0'
 end

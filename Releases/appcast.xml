@@ -6,12 +6,12 @@
         <description>Die Änderungen für Telemac.</description>
         <language>de</language>
         <item>
-            <title>Version 2.3</title>
+            <title>Version 2.4</title>
             <description>
-              Tastenanschläge ton entfernt - Styling - Code optimierung für Senderliste
+              Sender aktualisiert - neues AppIcon - Styling
              </description>
-            <pubDate>Wed, 5 Oct 2016 02:00:00 +0000</pubDate>
-            <enclosure url="https://github.com/justvanbloom/Telemac/raw/master/Releases/Telemac_2.3.zip" sparkle:version="2.3" sparkle:shortVersionString="2.3" length="5636532" type="application/octet-stream" />
+            <pubDate>Thuesday, 24 Apr 2017 00:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/justvanbloom/Telemac/raw/master/Releases/Telemac_2.4.zip" sparkle:version="2.4" sparkle:shortVersionString="2.4" length="6416611" type="application/octet-stream" />
             <sparkle:minimumSystemVersion>10.10</sparkle:minimumSystemVersion>
         </item>
     </channel>

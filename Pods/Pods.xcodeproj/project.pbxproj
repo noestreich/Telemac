@@ -7,40 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AAFCF04EC81670CAF672DAE39BABFE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
-		50F86C745A849C119FA315C4FA1CC24B /* Pods-Telemac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755AE7356114618351BE8C28E579D866 /* Pods-Telemac-dummy.m */; };
-		F8E2B32130E9054499C832186987D661 /* Pods-Telemac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A129895FFD23E86D98CE58D5FF01FE /* Pods-Telemac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F28669E4EDF489AE2F9D21EE3BE93D /* Pods-Telemac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A129895FFD23E86D98CE58D5FF01FE /* Pods-Telemac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC760C188D7A8F18583F295D711A95B6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */; };
+		B46CF58B910E3E2686F5CB3467E471C3 /* Pods-Telemac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755AE7356114618351BE8C28E579D866 /* Pods-Telemac-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0380146AC62A255788D9A5A168F7CAE8 /* Pods-Telemac-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telemac-frameworks.sh"; sourceTree = "<group>"; };
 		1877DFEAD29CDF186029D8D38D2CE50D /* Pods-Telemac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telemac.debug.xcconfig"; sourceTree = "<group>"; };
-		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		1FF1C7A3FDAB3204913DB09D095B198D /* Pods-Telemac-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Telemac-acknowledgements.plist"; sourceTree = "<group>"; };
+		270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		33A129895FFD23E86D98CE58D5FF01FE /* Pods-Telemac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Telemac-umbrella.h"; sourceTree = "<group>"; };
 		44069F2B054A9768F1135D8DF5A86693 /* Pods-Telemac-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Telemac-resources.sh"; sourceTree = "<group>"; };
 		68B7D7077DE406A209FE50F01B413E73 /* Pods-Telemac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Telemac.release.xcconfig"; sourceTree = "<group>"; };
 		755AE7356114618351BE8C28E579D866 /* Pods-Telemac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Telemac-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		953DA24877167F65D5EA4788B3BFCAA3 /* Pods_Telemac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Telemac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953DA24877167F65D5EA4788B3BFCAA3 /* Pods_Telemac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Telemac.framework; path = "Pods-Telemac.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46F39C5694BC311E2234AB8B101FC60 /* Pods-Telemac-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Telemac-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B3C6B97081EE6B0608C667C94AB6E364 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E585AA8430879B1F936EB992B29998D0 /* Pods-Telemac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Telemac.modulemap"; sourceTree = "<group>"; };
+		E585AA8430879B1F936EB992B29998D0 /* Pods-Telemac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Telemac.modulemap"; sourceTree = "<group>"; };
 		FCCD3866C838F21B08E660964D16649C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		69A6F22A24E5D53301FE6E2E21FDEC9B /* Frameworks */ = {
+		805C7A6A099E715E47E64C7936170092 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AAFCF04EC81670CAF672DAE39BABFE4 /* Cocoa.framework in Frameworks */,
+				AC760C188D7A8F18583F295D711A95B6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C068A18C5413F804A2959126093416 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				270DD1219F1E6CF00379D39F252D87C6 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
 		2686A2B2DE0035B2E60515718A97D4F7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -49,18 +57,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
 		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+				04C068A18C5413F804A2959126093416 /* OS X */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,6 +70,7 @@
 			children = (
 				634590055027CF510BE8FF8332E15655 /* Frameworks */,
 			);
+			name = Sparkle;
 			path = Sparkle;
 			sourceTree = "<group>";
 		};
@@ -129,24 +130,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		096F93FCD43E958994EBEE24BC760527 /* Headers */ = {
+		BAEBDD1A0BF0CBD329A858688290FD3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E2B32130E9054499C832186987D661 /* Pods-Telemac-umbrella.h in Headers */,
+				90F28669E4EDF489AE2F9D21EE3BE93D /* Pods-Telemac-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6097375DD2A8A711A2E0E047C11C757A /* Pods-Telemac */ = {
+		0DBA50A4B42F5E26A474878025562BCC /* Pods-Telemac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19A89F2715036B6C72BD7D0E7CC8950C /* Build configuration list for PBXNativeTarget "Pods-Telemac" */;
+			buildConfigurationList = A34C1EBE87F5F1440D26EA181DAFFD3C /* Build configuration list for PBXNativeTarget "Pods-Telemac" */;
 			buildPhases = (
-				4CD4B57FD4DF5A0F9506D5EBCE50A3D9 /* Sources */,
-				69A6F22A24E5D53301FE6E2E21FDEC9B /* Frameworks */,
-				096F93FCD43E958994EBEE24BC760527 /* Headers */,
+				044E174A7335EA3B0BB62E1570D18631 /* Sources */,
+				805C7A6A099E715E47E64C7936170092 /* Frameworks */,
+				BAEBDD1A0BF0CBD329A858688290FD3D /* Headers */,
 			);
 			buildRules = (
 			);
@@ -178,28 +179,31 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6097375DD2A8A711A2E0E047C11C757A /* Pods-Telemac */,
+				0DBA50A4B42F5E26A474878025562BCC /* Pods-Telemac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4CD4B57FD4DF5A0F9506D5EBCE50A3D9 /* Sources */ = {
+		044E174A7335EA3B0BB62E1570D18631 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50F86C745A849C119FA315C4FA1CC24B /* Pods-Telemac-dummy.m in Sources */,
+				B46CF58B910E3E2686F5CB3467E471C3 /* Pods-Telemac-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		10B48469508622ACBA9683F64A748809 /* Release */ = {
+		4DFA743A1A469427C6DBC0533995359B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68B7D7077DE406A209FE50F01B413E73 /* Pods-Telemac.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -214,7 +218,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MODULEMAP_FILE = "Target Support Files/Pods-Telemac/Pods-Telemac.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
@@ -229,7 +233,7 @@
 			};
 			name = Release;
 		};
-		4888EEFBEA04FABA2120470F4B676BBD /* Release */ = {
+		4ECF5F3A7DCBE32E59B23B0C7F362504 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,6 +251,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -260,48 +265,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		B8D9C864ED48EEA426126904B9009B1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1877DFEAD29CDF186029D8D38D2CE50D /* Pods-Telemac.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Telemac/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-Telemac/Pods-Telemac.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Telemac;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA2E206EB90DF75A25332AE4AA713F31 /* Debug */ = {
+		C269F16C69C874215FB299057455A930 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,6 +291,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -336,30 +309,68 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FD1034B24FAC0B42A46F166AD80316BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1877DFEAD29CDF186029D8D38D2CE50D /* Pods-Telemac.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Telemac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-Telemac/Pods-Telemac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Telemac;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		19A89F2715036B6C72BD7D0E7CC8950C /* Build configuration list for PBXNativeTarget "Pods-Telemac" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8D9C864ED48EEA426126904B9009B1B /* Debug */,
-				10B48469508622ACBA9683F64A748809 /* Release */,
+				C269F16C69C874215FB299057455A930 /* Debug */,
+				4ECF5F3A7DCBE32E59B23B0C7F362504 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		A34C1EBE87F5F1440D26EA181DAFFD3C /* Build configuration list for PBXNativeTarget "Pods-Telemac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA2E206EB90DF75A25332AE4AA713F31 /* Debug */,
-				4888EEFBEA04FABA2120470F4B676BBD /* Release */,
+				FD1034B24FAC0B42A46F166AD80316BA /* Debug */,
+				4DFA743A1A469427C6DBC0533995359B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
