@@ -1,7 +1,7 @@
 # Telemac
 
 
-Willkommen bei Telemac. Zum aktuellen Release: [Hier entlang.](https://github.com/noestreich/Telemac/releases)
+Willkommen bei Telemac. Eine Mac-App die zu Gunsten der Web-App [Teleweb](https://github.com/noestreich/Teleweb) nicht mehr weiterentwickeelt wird.
 ___
 
 Dieses Projekt nutzt das [MacGap](https://github.com/MacGapProject/MacGap2)-Werkzeug um eine einfache, unter Zuhilfenahme von [video.js](http://videojs.com/) gestrickte Webseite als Mac-App anzubieten.
